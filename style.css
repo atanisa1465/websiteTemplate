@@ -1,0 +1,628 @@
+/* Fonts */
+
+
+
+
+
+/* Navigation Section */
+.navbar {
+  padding: .1rem;
+
+}
+
+.navbar-brand {
+  color: darkgreen !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-link {
+ color: darkgreen !important;
+}
+
+.nav-link {
+  width: 85px;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 69px;
+  z-index:1;
+  /* background-color: #f9d9ee !important; */
+}
+
+.navbar-collapse {
+  flex-grow: 0.9 !important;
+}
+
+.nav-link:hover {
+  background-color: #f0ffee;
+  color: white;
+}
+
+.logo{
+  color:#045f41 !important;
+  background-color: #fff !important;
+  padding: 15px 10px 15px 12px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px !important;
+  border: 3px solid #045f41;
+  box-shadow: 0 0 0.5rem 0 rgba(7, 9, 12, 0.24);
+}
+
+#shell{
+  color: #000;
+  letter-spacing: 1px !important;
+  font-weight: bold;
+}
+
+.shell{
+  margin-left: -20px !important;
+}
+
+.shell sub{
+  letter-spacing: 1px; 
+  font-size: 13px;
+}
+
+.navbar-brand{
+  padding-left: 10px;
+  color: #252422 !important;
+  font-size: 15px;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px; 
+  margin-left: 75px;
+}
+
+.nav-link{
+  color: #281a1f !important;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  outline: none;
+  text-align: center;
+}
+
+/* .nav-link:hover {
+  opacity: 1;
+  color: #3042c8 !important;
+} */
+
+.navbar-toggler{
+  margin-right: 28px;
+}
+
+#navbarNav ul li{
+}
+
+  margin-top: -2px;#get-btn{
+
+  padding: 12px 14px 12px 14px;
+  border-radius: 5px;
+  color: #fff !important;
+  background-color: #3042c8;
+  background-image: linear-gradient(to left, #3042c8, rgb(243, 7, 7));
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+
+
+
+/* Header Section */
+
+header {
+  width: 100%;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.introone h2{
+  color: #000;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 52px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.introone p{
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.intro .btn-get-started {
+  padding: 10px 18px 10px 18px;
+  border-radius: 5px;
+  /* color: #fff;
+  background-color: #3042c8; */
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  transition: 0.5s;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+
+.illus img{
+  /* margin-top: 30px; */
+  width: 100%;
+  max-width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+#about{
+  padding-bottom: 30px;
+  background-color: #f0ffee;
+}
+
+
+#about p{
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+
+
+
+.intro .btn-get-started  {
+  background-color: darkgreen;
+  color: white;
+}
+
+.header .btn:hover {
+  background-color: darkolivegreen;
+}
+
+
+
+
+
+
+
+
+
+/* Services Section */
+
+.services img {
+  padding-top: 10px;
+  width: 200px;
+  max-width: 390px;
+  height: auto;
+  overflow: hidden;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.services .row {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.services h5{
+  /* margin-top: 20px; */
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+.services h2{
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.services p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.services img:hover {
+  transform: scale(1.2);
+  transition: transform 1s;
+  color: #fff !important;
+  border: none;
+}
+
+
+/* Teams Services */
+
+/* .team .card {
+  border-bottom-color: black;
+}
+
+.team .card:hover {
+  background-color: aliceblue;
+} */
+
+#team {
+  background-color: #f0ffee;
+}
+
+.team img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  /* padding: 10px 10px; */
+  margin-bottom: 20px;
+}
+
+.member img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: double 4px transparent;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#0d6efd);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.member {
+  text-align: center;
+  margin-top: 10px;
+  padding-right: -10px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.member h5{
+  /* margin-top: 20px; */
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+.member p{
+  color: rgb(36, 35, 35);
+  font-weight: normal;
+}
+
+.member h6{
+  color: rgb(36, 35, 35);
+  font-weight: lighter;
+}
+
+.card{
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border-radius: 130px;
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.192) !important;
+  transition: transform .5s;
+}
+
+.member:hover {
+  transform: scale(1.06);
+  transition: transform .5s;
+  color: #fff !important;
+  border: none;
+}
+
+.padd {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* .btn-primary {
+  background: -webkit-linear-gradient(90deg, hsla(115, 7%, 36%, 1) 0%, hsla(99, 61%, 20%, 1) 48%, hsla(128, 24%, 31%, 1) 97%)
+  
+} */
+
+.btn-primary {
+  border: green !important;
+  background-color: darkgreen !important;
+}
+
+.team h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.team p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.team {
+  background-color: #f0ffee;
+}
+
+/* Additional */
+
+.joinus h2, .partners h2{
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.joinus p, .partners p{
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  padding: 16px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.joinus a {
+  color: white !important;
+  text-decoration: none !important;
+
+}
+
+.petition:hover {
+  background-color: rgb(0, 0, 0) !important;
+  transform: scale(1.06) !important;
+  transition: transform .5s !important;
+  border-radius: 5px;
+
+}
+
+.petition {
+  border-radius: 5px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  border: green;
+  background: -webkit-linear-gradient(90deg, rgb(124, 158, 121) 0%, hsla(99, 61%, 20%, 1) 48%, hsla(128, 24%, 31%, 1) 97%)
+}
+
+
+/* partners Us Section */
+.partners {
+  padding: 20px;
+}
+
+.partners img {
+  width: 300px;
+  padding: 50px;
+}
+
+/* Footer Section */
+
+.contact-items {
+  /* background-color: rgb(116, 198, 157); */
+  opacity: 1;
+  width: 300px;
+  align-items: center;
+  display: block;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.contact-item {
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: .3s ease box-shadow;
+  align-items: center;
+}
+
+.contact-items:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+  transform: scale(1.06);
+  transition: transform .5s;
+  color: transparent !important;
+  border: none;
+}
+
+footer h6 {
+  color: black;
+}
+
+footer h7 {
+  color: black;
+}
+
+footer icon {
+  color: black;
+}
+
+footer .icon {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-image: url(https://i.pinimg.com/originals/da/d6/24/dad6242ee6e2b7325b2e7c5bc7a862b7.png);
+  background-color: #f0ffee;
+  background-size: 500px;
+}
+
+/* Header Two */
+
+.introtwo {
+  background-color: #f0ffee;
+  text-align: center !important;
+}
+
+.intro-contenttwo {
+   text-align: center !important;
+}
+
+.introtwo h2{
+  color: #000;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 52px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.introtwo p{
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.bold {
+  text-align: right-align;
+}
+
+.problem h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.problem p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.problem img {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.problem img:hover {
+  width: 25%;
+  height: auto;
+  transform: rotate(360deg);
+}
+
+/* Partners */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+  padding-top:10px;
+}
+
+.donate label {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.donate h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.donate p {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.button, input, optgroup, select, textarea {
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.modal-backdrop {
+  z-index: 0 !important;
+}
+
+.modal-backdrop.show {
+  z-index: 0 !important;
+}
+
+.input-group-text {
+display: -ms-flexbox;
+display: flex;
+-ms-flex-align: center;
+align-items: center;
+padding: .375rem .75rem;
+margin-bottom: 0;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #495057;
+text-align: center;
+white-space: nowrap;
+background-color: #f0ffee !important;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+}
+
+#donate {
+  background-color: #f0ffee;
+}
+
+div.donatebackground {
+  background-image: url("https://winnyc.org/wp-content/uploads/2019/05/Screenshot_1.jpg");
+  height: 300px;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
